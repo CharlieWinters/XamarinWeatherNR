@@ -22,4 +22,6 @@ https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-k
 4. Replace `InsightsKey` value with your Insights Insert Key.
 5. Build and Run.
 
+The demo should create a `XamarinHTTPRequest` event in Insights when a Post request to get weather data is made, it creates a `XamarinEvent` with information on which city the weather data was queried for and it also create a `XamarinHTTPRequestError` if the city queried is not found.
+
 ![Weather App application screenshot](Screenshots/01All.png "Weather App application screenshot")
